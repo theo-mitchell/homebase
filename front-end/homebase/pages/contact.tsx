@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import ContactForm from "../components/contactForm";
 
 const Contact = () => {
   return (
@@ -8,9 +9,7 @@ const Contact = () => {
         <title>Contact</title>
       </Head>
       <main className={styles.main}>
-        <div>
-          <h1 color="yellow">CONTACT PAGE</h1>
-        </div>
+        <ContactForm></ContactForm>
       </main>
     </div>
   );

@@ -10,10 +10,10 @@ const Navbar = (props: any) => {
           <Link href="/">MAIN</Link>
         </Button>
         <Button className="p-5" variant="contained" color="primary">
-          <Link href="./blog">BLOG</Link>
+          <Link href="/blog">BLOG</Link>
         </Button>
         <Button className="p-5" variant="contained" color="primary">
-          <Link href="./contact">CONTACT</Link>
+          <Link href="/contact">CONTACT</Link>
         </Button>
       </Toolbar>
     </AppBar>
