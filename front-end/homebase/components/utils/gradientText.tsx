@@ -1,13 +1,9 @@
 import { useState } from "react";
 
 const GradientText = (props) => {
-    const [gradient, setGradient] = useState('red');
-    
-    return (
-        <div style={{color: 'red', backgroundColor: 'lime'}}>
-            {props.children}
-        </div>
-    )
-}
+  const [gradient, setGradient] = useState("blue");
+
+  return <div style={{ color: gradient }}>{props.children}</div>;
+};
 
 export default GradientText;
