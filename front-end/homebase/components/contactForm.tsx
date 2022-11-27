@@ -50,7 +50,7 @@ const ContactForm = () => {
       <label htmlFor="last">Last Name</label>
       <input type="text" id="last" name="last" required />
 
-      <button type="submit">Submit</button>
+      <button type="submit">Send</button>
     </form>
     </CardContent>
   </Card>
